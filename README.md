@@ -1,10 +1,19 @@
-# HowToContribute
+# How To Contribute
 
 *Simple contribution guidelines to make open-source happy and organized*
 
 It's difficult for us developers to stay organized and adequately track changes in our code. This difficulty is amplified on teams of more than one. It's further amplified by distributed teams and [time zones](http://xkcd.com/448/). It's even more amplified in open-source. With the guide below, open-source can be organized. It can be a happy place. Resist being a [lazy developer](http://1.bp.blogspot.com/-YD8Na5Mv4oY/USZJ0T5RKQI/AAAAAAAADnU/5U871_OaqRE/s1600/Ain-t-Nobody-Got-Time-Fo-Dat-sweet-brown-31241125-480-330.jpg), we can get through this together.
 
+
+## Project organization
+
+* `master` branch is always stable and release-ready
+* `develop` branch is not guaranteed to be stable, it is for development and merged into `master` when stable
+* feature branches should be created for adding new features and merged into `develop` when finished
+
+
 ## Step-by-step
+
 1. Find an issue to work on, or create a new one (*no duplicates, please!*)
 2. Fork the repo
 3. Create a new branch with a sweet fucking name: `git checkout -b issue_<##>_<featureOrFix>`
