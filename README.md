@@ -27,3 +27,5 @@ It's difficult for us developers to stay organized and adequately track changes 
 8. Update the documentation header comments, if needed
 9. Merge the latest from the `develop` branch and **resolve any conflicts** (*before submitting a pull request!*)
 10. Submit a pull request to the `develop` branch
+
+[![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jessesquires/howtocontribute/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
