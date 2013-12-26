@@ -5,7 +5,7 @@
 It's difficult for us developers to stay organized and adequately track changes in our code. This difficulty is amplified on teams of more than one. It's further amplified by distributed teams and [time zones](http://xkcd.com/448/). It's even more amplified in open-source. With the guide below, open-source can be organized. It can be a happy place. Resist being a [lazy developer](http://1.bp.blogspot.com/-YD8Na5Mv4oY/USZJ0T5RKQI/AAAAAAAADnU/5U871_OaqRE/s1600/Ain-t-Nobody-Got-Time-Fo-Dat-sweet-brown-31241125-480-330.jpg), we can get through this together.
 
 
-## Project organization
+## Project Organization
 
 * `master` branch is always stable and release-ready
 * `develop` branch is not guaranteed to be stable, it is for development and merged into `master` when stable
@@ -27,5 +27,7 @@ It's difficult for us developers to stay organized and adequately track changes 
 8. Update the documentation header comments, if needed
 9. Merge the latest from the `develop` branch and **resolve any conflicts** (*before submitting a pull request!*)
 10. Submit a pull request to the `develop` branch
+
+
 
 [![Bitdeli Badge](https://d2weczhvl823v0.cloudfront.net/jessesquires/howtocontribute/trend.png)](https://bitdeli.com/free "Bitdeli Badge")
